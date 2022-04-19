@@ -10,7 +10,6 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     WebView wv;
-    String StringUrl;
     String st1;
     EditText et1;
 
