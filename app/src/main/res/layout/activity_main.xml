@@ -33,7 +33,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:onClick="change"
-            android:text="Button" />
+            android:text="press" />
 
         <Space
             android:layout_width="wrap_content"

@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         wv = (WebView) findViewById(R.id.Web);
         wv.getSettings().setJavaScriptEnabled(true);
         et1 = (EditText) findViewById(R.id.editText);
-        wv.getSettings().setJavaScriptEnabled(true);
         wv.setWebViewClient(new MyWebViewClient());
 
     }
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         public boolean shouldOverideUrlLoading(WebView view, String url) {
             view.loadUrl(url);
             return true;
-
         }
     }
 }
